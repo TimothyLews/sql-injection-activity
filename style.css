@@ -1,0 +1,73 @@
+/* General Form Styles */
+form {
+    border: 5px solid #f8e092;
+}
+
+/* Input Styles */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 8px 4px;
+    display: inline-block;
+    border: 4px solid rgb(10, 9, 9);
+    box-sizing: border-box;
+}
+
+/* Button Styles */
+button {
+    background-color: #dbfadc;
+    color: rgb(59, 47, 47);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: double;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.4;
+}
+
+/* Cancel Button Styles */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Image Container */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+/* Avatar Image Styles */
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+/* Main Container */
+.container {
+    padding: 30px;
+}
+
+/* Password Reset Link */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Unauthorized and Error Message Styles */
+.unauthorized {
+    background-color: rgb(240, 24, 35);
+    color: white; /* Added text color for contrast */
+    padding: 10px; /* Added padding for better spacing */
+}
+
+.error {
+    background-color: rgb(248, 198, 198);
+    color: rgb(59, 47, 47); /* Added text color for contrast */
+    padding: 10px; /* Added padding for better spacing */
+}
